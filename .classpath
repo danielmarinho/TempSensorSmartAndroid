@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/jsonrpc/jsonrpc2-base-1.25.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/gson-2.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/andenginetmxtiledmapextension.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/andengine.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jeval.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/android-support-v4.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
