@@ -21,6 +21,7 @@ import br.uff.tempo.apps.reminder.ReminderActivity;
 import br.uff.tempo.apps.rule.RuleFactory;
 import br.uff.tempo.apps.rule.RuleManager;
 import br.uff.tempo.apps.simulators.bed.BedView;
+import br.uff.tempo.apps.simulators.chapinha.ChapinhaView;
 import br.uff.tempo.apps.simulators.creator.SimulCreatorActivity;
 import br.uff.tempo.apps.simulators.lamp.LampView;
 import br.uff.tempo.apps.simulators.stove.StoveView;
@@ -60,6 +61,9 @@ public class MainListView extends ListActivity {
 					Intent intent = new Intent(MainListView.this, RuleFactory.class);
 					startService(intent);
 					intent = new Intent(MainListView.this, RuleManager.class);
+					startActivity(intent);
+				} else if (item.equals("Chapinha")) {//Redirecionando para Chapinha
+					Intent intent = new Intent(MainListView.this, ChapinhaView.class);
 					startActivity(intent);
 				} else if (item.equals("Fogao")) {
 					Intent intent = new Intent(MainListView.this, StoveView.class);

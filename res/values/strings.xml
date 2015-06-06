@@ -41,6 +41,7 @@
     <string-array name="devices_array">
         <item name="item_rule">Simuladores</item>
         <item name="item_rule">Regra</item>
+        <item name="item_chapinha">Chapinha</item><!-- Listagem da chapinha no menu principal -->
         <item name="item_tv">Televisao</item>
         <item name="item_Cel">Celular</item>
         <item name="item_Lamp">Lampada</item>

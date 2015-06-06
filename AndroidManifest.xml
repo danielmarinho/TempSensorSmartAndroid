@@ -42,6 +42,7 @@
         <activity android:name=".apps.simulators.stove.StoveView" />
         <activity android:name=".apps.simulators.bed.BedView" />
         <activity android:name=".apps.simulators.tv.TvView" />
+        <activity android:name=".apps.simulators.chapinha.ChapinhaView" />
         <activity android:name=".apps.simulators.lamp.LampView" />
         <activity android:name=".apps.simulators.tracking.TrackingView" />
         <activity android:name=".apps.map.SmartMapActivity" />
